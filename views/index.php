@@ -1,5 +1,3 @@
-<?php $view = __FILE__;
-include 'views/layout.php'; ?>
 <a href="index.php?action=create">Novo Veículo</a>
 <table border="1">
     <tr>
