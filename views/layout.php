@@ -2,10 +2,13 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>CRUD de Veículos</title>
+    <title>Cadastro de Veículos</title>
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
     <h1>Cadastro de Veículos</h1>
-    <?php include $view; ?>
+    <div class="container">
+        <?php include $view; ?>
+    </div>
 </body>
 </html>

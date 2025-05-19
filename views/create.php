@@ -1,8 +1,16 @@
-<a href="index.php">Voltar</a>
-<h2>Novo Veículo</h2>
+<h2>Adicionar Novo Veículo</h2>
+
 <form action="index.php?action=store" method="post">
-    <label>Marca: <input type="text" name="marca" required></label><br>
-    <label>Modelo: <input type="text" name="modelo" required></label><br>
-    <label>Ano: <input type="number" name="ano" required></label><br>
-    <button type="submit">Salvar</button>
+    <label>Marca:</label>
+    <input type="text" name="marca" required>
+
+    <label>Modelo:</label>
+    <input type="text" name="modelo" required>
+
+    <label>Ano:</label>
+    <input type="number" name="ano" required>
+
+    <input type="submit" value="Salvar">
 </form>
+
+<a href="index.php" class="button">Voltar</a>
